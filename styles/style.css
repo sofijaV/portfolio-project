@@ -1,10 +1,11 @@
 :root {
   --primary-color: #272142;
+  --secondary-color: #f9f7fe;
 }
 .hero {
   text-align: center;
   padding: 150px 20px;
-  background-color: #f9f7fe;
+  background-color: var(--secondary-color);
 }
 h1 {
   font-family: "Playfair Display", serif;
@@ -32,47 +33,64 @@ h2 {
   text-decoration: none;
   text-align: center;
   display: inline-block;
-}
-.btn-contact {
-  font-size: 18px;
   padding: 18px 30px;
+  font-size: 18px;
   border-radius: 10px;
+}
+.btn-primary {
   background: var(--primary-color);
   color: white;
 }
-.btn-contact:hover {
+.btn-primary:hover {
   color: var(--primary-color);
   background: white;
+  border: 1px solid var(--primary-color);
 }
-.hero-image {
-  width: 1000px;
-  display: block;
-  margin: 0 auto;
-}
+
 p {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
 }
-.btn-app-link {
+.btn-secondary {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
-  border-radius: 4px;
-  font-size: 18px;
   line-height: 27px;
-  padding: 15px 30px;
+  background: var(--secondary-color);
 }
-.btn-app-link:hover {
+.btn-secondary:hover {
   color: white;
   background-color: var(--primary-color);
 }
 .project-info {
-  padding: 0px 60px;
+  padding: 0px 20px;
 }
 .project-info h2 {
   font-size: 64px;
 }
 .app-description {
   color: #6c757d;
+}
+img {
+  border: 1px solid var(--primary-color);
+}
+@media (max-width: 769px) {
+  .hero {
+    padding: 60px 20px;
+  }
+  .project-info {
+    text-align: center;
+    padding: 0;
+  }
+  h1,
+  .project-info h2 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  .hero p {
+    font-size: 20px;
+  }
 }
