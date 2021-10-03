@@ -1,3 +1,6 @@
+:root {
+  --primary-color: #272142;
+}
 .hero {
   text-align: center;
   padding: 150px 20px;
@@ -14,23 +17,32 @@ h2 {
   font-size: 24px;
   font-weight: normal;
   line-height: 2;
-  color: #272142;
+  color: var(--primary-color);
 }
 .hero p {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   font-size: 36px;
-  color: #272142;
+  color: var(--primary-color);
   line-height: 30px;
 }
 .button {
   font-family: "Poppins", sans-serif;
   font-weight: medium;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+}
+.btn-contact {
   font-size: 18px;
   padding: 18px 30px;
   border-radius: 10px;
-  background: #272142;
+  background: var(--primary-color);
   color: white;
+}
+.btn-contact:hover {
+  color: var(--primary-color);
+  background: white;
 }
 .hero-image {
   width: 1000px;
@@ -40,5 +52,27 @@ h2 {
 p {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+}
+.btn-app-link {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
   font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+.btn-app-link:hover {
+  color: white;
+  background-color: var(--primary-color);
+}
+.project-info {
+  padding: 0px 60px;
+}
+.project-info h2 {
+  font-size: 64px;
+}
+.app-description {
+  color: #6c757d;
 }
