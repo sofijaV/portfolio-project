@@ -114,7 +114,9 @@ p {
   }
   .about-page {
     text-align: center;
+    padding: 0;
   }
+
   .about-content h1 {
     font-size: 35px;
   }
