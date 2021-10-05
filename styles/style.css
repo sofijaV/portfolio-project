@@ -4,10 +4,19 @@
   --heading-font: "Playfair Display", serif;
   --content-font: "Poppins", sans-serif;
 }
+body {
+  font-family: var(--content-font);
+}
 .hero {
   text-align: center;
   padding: 150px 20px;
   background-color: var(--secondary-color);
+}
+.about-page {
+  padding: 150px 20px;
+}
+.about-content {
+  margin: 30px;
 }
 h1 {
   font-family: var(--heading-font);
@@ -15,12 +24,20 @@ h1 {
   font-size: 96px;
   color: black;
 }
+.about-page h1 {
+  font-size: 64px;
+}
 h2 {
   font-family: var(--heading-font);
   font-size: 24px;
   font-weight: normal;
-  line-height: 2;
+  line-height: 1.2;
   color: var(--primary-color);
+}
+.about-page h2 {
+  font-family: var(--content-font);
+  font-size: 18px;
+  font-weight: bold;
 }
 .hero p {
   font-family: var(--content-font);
@@ -74,6 +91,7 @@ p {
 .featured-project {
   border: 1px solid var(--primary-color);
 }
+
 @media (max-width: 769px) {
   .hero {
     padding: 60px 20px;
@@ -93,5 +111,17 @@ p {
   }
   .hero p {
     font-size: 20px;
+  }
+  .about-page {
+    text-align: center;
+  }
+  .about-content h1 {
+    font-size: 35px;
+  }
+  .about-content h2 {
+    font-size: 15px;
+  }
+  .about-content p {
+    font-size: 16px;
   }
 }
