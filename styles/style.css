@@ -97,6 +97,13 @@ p {
 .featured-project {
   border: 1px solid var(--primary-color);
 }
+.contact-link {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+.contact-link:hover {
+  color: #f5f6f3;
+}
 
 @media (max-width: 769px) {
   .hero {
