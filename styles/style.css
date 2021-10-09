@@ -102,7 +102,7 @@ p {
   text-decoration: none;
 }
 .contact-link:hover {
-  color: #f5f6f3;
+  color: #b5b5b5;
 }
 
 @media (max-width: 769px) {
