@@ -12,10 +12,6 @@ body {
   text-align: center;
   padding: 150px 20px;
   background-color: var(--secondary-color);
-  background-image: url("/images/flower.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
 }
 .content-wrapper {
   padding: 60px 20px;
