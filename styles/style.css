@@ -1,6 +1,7 @@
 :root {
   --primary-color: #272142;
   --secondary-color: #f9f7fe;
+  --highlight-color: #b5b5b5;
   --heading-font: "Playfair Display", serif;
   --content-font: "Poppins", sans-serif;
 }
@@ -102,7 +103,7 @@ p {
   text-decoration: none;
 }
 .contact-link:hover {
-  color: #b5b5b5;
+  color: var(--highlight-color);
 }
 nav {
   padding: 20px 0;
@@ -119,11 +120,9 @@ nav a {
   color: var(--primary-color);
   text-decoration: none;
 }
-nav a:hover {
-  color: #b5b5b5;
-}
+nav a:hover,
 .active {
-  color: #b5b5b5;
+  color: var(--highlight-color);
 }
 
 @media (max-width: 769px) {
