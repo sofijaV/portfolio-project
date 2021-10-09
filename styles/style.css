@@ -12,10 +12,10 @@ body {
   padding: 150px 20px;
   background-color: var(--secondary-color);
 }
-.about-page {
+.content-wrapper {
   padding: 150px 20px;
 }
-.about-content {
+.content {
   margin: 30px;
 }
 h1 {
@@ -24,7 +24,7 @@ h1 {
   font-size: 96px;
   color: black;
 }
-.about-page h1 {
+.content-wrapper h1 {
   font-size: 64px;
 }
 h2 {
@@ -34,7 +34,7 @@ h2 {
   line-height: 1.2;
   color: var(--primary-color);
 }
-.about-page h2 {
+.content-wrapper h2 {
   font-family: var(--content-font);
   font-size: 18px;
   font-weight: bold;
@@ -46,6 +46,12 @@ h2 {
   color: var(--primary-color);
   line-height: 30px;
 }
+.content h3 {
+  font-size: 24px;
+  font-family: var(--content-font);
+  font-weight: bold;
+}
+
 .button {
   font-family: var(--content-font);
   font-weight: medium;
@@ -112,18 +118,20 @@ p {
   .hero p {
     font-size: 20px;
   }
-  .about-page {
+  .content-wrapper {
     text-align: center;
     padding: 0;
   }
-
-  .about-content h1 {
+  .content h1 {
     font-size: 35px;
   }
-  .about-content h2 {
+  .content h2 {
     font-size: 15px;
   }
-  .about-content p {
+  .content p {
     font-size: 16px;
+  }
+  .photo {
+    width: 50%;
   }
 }
