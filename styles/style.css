@@ -135,6 +135,26 @@ nav a:hover,
   padding: 30px 120px;
   border-radius: 20px;
 }
+footer {
+  margin: 60px;
+}
+footer .icons a {
+  margin: 0 20px;
+  padding: 10px 14px;
+  font-size: 18px;
+  background: var(--secondary-color);
+  color: var(--primary-color);
+  border-radius: 50%;
+}
+footer .icons a:hover {
+  color: var(--secondary-color);
+  background: var(--primary-color);
+}
+footer .mail-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
 @media (max-width: 769px) {
   .hero {
     padding: 60px 20px;
@@ -168,7 +188,6 @@ nav a:hover,
   .content p {
     font-size: 16px;
   }
-
   nav ul {
     margin-right: 45px;
   }
