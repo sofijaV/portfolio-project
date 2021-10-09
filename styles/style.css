@@ -104,6 +104,27 @@ p {
 .contact-link:hover {
   color: #b5b5b5;
 }
+nav {
+  padding: 20px 0;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: inline;
+  margin-left: 10px;
+}
+nav a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+nav a:hover {
+  color: #b5b5b5;
+}
+.active {
+  color: #b5b5b5;
+}
 
 @media (max-width: 769px) {
   .hero {
@@ -138,7 +159,8 @@ p {
   .content p {
     font-size: 16px;
   }
-  .photo {
-    width: 50%;
+
+  nav ul {
+    margin-right: 45px;
   }
 }
