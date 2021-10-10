@@ -13,6 +13,10 @@ body {
   text-align: center;
   padding: 150px 20px;
   background-color: var(--secondary-color);
+  background-image: url("/images/monstera2.png"), url("/images/monstera.png");
+  background-repeat: no-repeat;
+  background-position: right, left;
+  background-size: contain;
 }
 .content-wrapper {
   padding: 60px 20px;
