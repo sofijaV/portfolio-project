@@ -1,5 +1,6 @@
 :root {
-  --primary-color: #272142;
+  --primary-color: #4d8c50;
+  --details-color: #052e4c;
   --secondary-color: #f9f7fe;
   --highlight-color: #b5b5b5;
   --heading-font: "Playfair Display", serif;
@@ -39,7 +40,7 @@ h2 {
   font-size: 24px;
   font-weight: normal;
   line-height: 1.2;
-  color: var(--primary-color);
+  color: var(--details-color);
 }
 .content-wrapper h2 {
   font-family: var(--content-font);
@@ -50,7 +51,7 @@ h2 {
   font-family: var(--content-font);
   font-weight: bold;
   font-size: 36px;
-  color: var(--primary-color);
+  color: var(--details-color);
   line-height: 30px;
 }
 .content h3 {
@@ -72,6 +73,7 @@ h2 {
 .btn-primary {
   background: var(--primary-color);
   color: white;
+  transition: all 150ms ease-in-out;
 }
 .btn-primary:hover {
   color: var(--primary-color);
@@ -90,6 +92,7 @@ p {
   border: 1px solid var(--primary-color);
   line-height: 27px;
   background: var(--secondary-color);
+  transition: all 150ms ease-in-out;
 }
 .btn-secondary:hover {
   color: white;
@@ -107,6 +110,7 @@ p {
 .contact-link {
   color: var(--primary-color);
   text-decoration: none;
+  transition: all 150ms ease-in-out;
 }
 .contact-link:hover {
   color: var(--highlight-color);
@@ -123,7 +127,7 @@ nav li {
   margin-left: 10px;
 }
 nav a {
-  color: var(--primary-color);
+  color: var(--details-color);
   text-decoration: none;
 }
 nav a:hover,
@@ -153,6 +157,7 @@ footer .icons a {
   background: var(--secondary-color);
   color: var(--primary-color);
   border-radius: 50%;
+  transition: all 150ms ease-in-out;
 }
 footer .icons a:hover {
   color: var(--secondary-color);
@@ -163,6 +168,7 @@ footer .mail-link {
   color: black;
   font-size: 24px;
   padding: 60px;
+  transition: all 150ms ease-in-out;
 }
 footer .mail-link:hover {
   color: var(--highlight-color);
