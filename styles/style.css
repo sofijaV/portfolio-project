@@ -109,7 +109,7 @@ p {
   font-size: 64px;
 }
 .featured-project {
-  border: 1px solid var(--primary-color);
+  border: 1px solid var(--highlight-color);
 }
 .contact-link {
   color: var(--primary-color);
