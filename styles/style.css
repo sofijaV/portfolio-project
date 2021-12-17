@@ -91,6 +91,7 @@ p {
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
+  text-align: justify;
 }
 .btn-secondary {
   color: var(--primary-color);
@@ -141,7 +142,7 @@ nav a:hover,
   color: var(--highlight-color);
 }
 .photo {
-  width: 300px;
+  width: 100px;
 }
 .project {
   transition: all 100ms ease-in-out;
